@@ -1,21 +1,81 @@
 @charset "utf-8";
 /* CSS Document */
-.h1{
+h1{
 	color:#FF9;
-	alignment-baseline:central;
 }
 
-.h2{
+h2{
 	color:#FFF;
-	alignment-baseline:central;
 }
 
-.h3{
+h3{
 	color:#FF0;
-	alignment-baseline:central;
 }
 
-.h4{
+h4{
 	color:#0F0;
-	alignment-baseline:central;
 }
+
+.fondo{background-image:url(../imagenes/inicio/Fondo.jpg)}
+h1.clase1{font-size:20px;color:#FFF}
+p.clase1{color:#FFF}
+div.center{text-align:center}
+div.right{text-align:right}
+div.left{text-align:left}
+div.justificar{text-align:justify}
+
+
+img{
+
+   border:dashed;
+
+   margin: 15px;
+
+   -webkit-transition: margin 0.5s ease-out;
+
+   -moz-transition: margin 0.5s ease-out;
+
+   -ms-transition: margin 0.5s ease-out;
+
+}
+
+.ex1 img:hover {
+
+   margin-top: 2px;
+
+}
+
+#containerEx3 {
+	width: 500px;
+
+   margin: 0 auto;
+}
+
+#ex3 img {
+
+   margin: 20px;
+
+   border: 5px solid #eee;
+
+   -webkit-box-shadow: 4px 4px 4px rgba;
+
+   -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+
+   -webkit-transition: all 0.5s ease-out;
+
+   -moz-transition: all 0.5s ease;
+
+   -ms-transition: all 0.5s ease;
+
+}
+
+#ex3 img:hover {
+
+   -webkit-transform: rotate(-7deg);
+
+   -moz-transform: rotate(-7deg);
+
+   -ms-transform: rotate(-7deg);
+
+}
+
